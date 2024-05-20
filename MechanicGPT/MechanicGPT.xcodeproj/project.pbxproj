@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5843B452BFBF93C00495CBB /* MechanicGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5843B442BFBF93C00495CBB /* MechanicGPTApp.swift */; };
+		B5843B472BFBF93C00495CBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5843B462BFBF93C00495CBB /* ContentView.swift */; };
+		B5843B492BFBF93D00495CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5843B482BFBF93D00495CBB /* Assets.xcassets */; };
+		B5843B4C2BFBF93D00495CBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5843B4B2BFBF93D00495CBB /* Preview Assets.xcassets */; };
+		B5843B572BFBF93D00495CBB /* MechanicGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5843B562BFBF93D00495CBB /* MechanicGPTTests.swift */; };
+		B5843B612BFBF93D00495CBB /* MechanicGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5843B602BFBF93D00495CBB /* MechanicGPTUITests.swift */; };
+		B5843B632BFBF93D00495CBB /* MechanicGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5843B622BFBF93D00495CBB /* MechanicGPTUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5843B532BFBF93D00495CBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5843B392BFBF93C00495CBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5843B402BFBF93C00495CBB;
+			remoteInfo = MechanicGPT;
+		};
+		B5843B5D2BFBF93D00495CBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5843B392BFBF93C00495CBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5843B402BFBF93C00495CBB;
+			remoteInfo = MechanicGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5843B412BFBF93C00495CBB /* MechanicGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MechanicGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5843B442BFBF93C00495CBB /* MechanicGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicGPTApp.swift; sourceTree = "<group>"; };
+		B5843B462BFBF93C00495CBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5843B482BFBF93D00495CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5843B4B2BFBF93D00495CBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5843B4D2BFBF93D00495CBB /* MechanicGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MechanicGPT.entitlements; sourceTree = "<group>"; };
+		B5843B522BFBF93D00495CBB /* MechanicGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechanicGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5843B562BFBF93D00495CBB /* MechanicGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicGPTTests.swift; sourceTree = "<group>"; };
+		B5843B5C2BFBF93D00495CBB /* MechanicGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechanicGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5843B602BFBF93D00495CBB /* MechanicGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicGPTUITests.swift; sourceTree = "<group>"; };
+		B5843B622BFBF93D00495CBB /* MechanicGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5843B3E2BFBF93C00495CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5843B4F2BFBF93D00495CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5843B592BFBF93D00495CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5843B382BFBF93C00495CBB = {
+			isa = PBXGroup;
+			children = (
+				B5843B432BFBF93C00495CBB /* MechanicGPT */,
+				B5843B552BFBF93D00495CBB /* MechanicGPTTests */,
+				B5843B5F2BFBF93D00495CBB /* MechanicGPTUITests */,
+				B5843B422BFBF93C00495CBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5843B422BFBF93C00495CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5843B412BFBF93C00495CBB /* MechanicGPT.app */,
+				B5843B522BFBF93D00495CBB /* MechanicGPTTests.xctest */,
+				B5843B5C2BFBF93D00495CBB /* MechanicGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5843B432BFBF93C00495CBB /* MechanicGPT */ = {
+			isa = PBXGroup;
+			children = (
+				B5843B442BFBF93C00495CBB /* MechanicGPTApp.swift */,
+				B5843B462BFBF93C00495CBB /* ContentView.swift */,
+				B5843B482BFBF93D00495CBB /* Assets.xcassets */,
+				B5843B4D2BFBF93D00495CBB /* MechanicGPT.entitlements */,
+				B5843B4A2BFBF93D00495CBB /* Preview Content */,
+			);
+			path = MechanicGPT;
+			sourceTree = "<group>";
+		};
+		B5843B4A2BFBF93D00495CBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5843B4B2BFBF93D00495CBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5843B552BFBF93D00495CBB /* MechanicGPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5843B562BFBF93D00495CBB /* MechanicGPTTests.swift */,
+			);
+			path = MechanicGPTTests;
+			sourceTree = "<group>";
+		};
+		B5843B5F2BFBF93D00495CBB /* MechanicGPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5843B602BFBF93D00495CBB /* MechanicGPTUITests.swift */,
+				B5843B622BFBF93D00495CBB /* MechanicGPTUITestsLaunchTests.swift */,
+			);
+			path = MechanicGPTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5843B402BFBF93C00495CBB /* MechanicGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5843B662BFBF93D00495CBB /* Build configuration list for PBXNativeTarget "MechanicGPT" */;
+			buildPhases = (
+				B5843B3D2BFBF93C00495CBB /* Sources */,
+				B5843B3E2BFBF93C00495CBB /* Frameworks */,
+				B5843B3F2BFBF93C00495CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MechanicGPT;
+			productName = MechanicGPT;
+			productReference = B5843B412BFBF93C00495CBB /* MechanicGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5843B512BFBF93D00495CBB /* MechanicGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5843B692BFBF93D00495CBB /* Build configuration list for PBXNativeTarget "MechanicGPTTests" */;
+			buildPhases = (
+				B5843B4E2BFBF93D00495CBB /* Sources */,
+				B5843B4F2BFBF93D00495CBB /* Frameworks */,
+				B5843B502BFBF93D00495CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5843B542BFBF93D00495CBB /* PBXTargetDependency */,
+			);
+			name = MechanicGPTTests;
+			productName = MechanicGPTTests;
+			productReference = B5843B522BFBF93D00495CBB /* MechanicGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5843B5B2BFBF93D00495CBB /* MechanicGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5843B6C2BFBF93D00495CBB /* Build configuration list for PBXNativeTarget "MechanicGPTUITests" */;
+			buildPhases = (
+				B5843B582BFBF93D00495CBB /* Sources */,
+				B5843B592BFBF93D00495CBB /* Frameworks */,
+				B5843B5A2BFBF93D00495CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5843B5E2BFBF93D00495CBB /* PBXTargetDependency */,
+			);
+			name = MechanicGPTUITests;
+			productName = MechanicGPTUITests;
+			productReference = B5843B5C2BFBF93D00495CBB /* MechanicGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5843B392BFBF93C00495CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B5843B402BFBF93C00495CBB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B5843B512BFBF93D00495CBB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B5843B402BFBF93C00495CBB;
+					};
+					B5843B5B2BFBF93D00495CBB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B5843B402BFBF93C00495CBB;
+					};
+				};
+			};
+			buildConfigurationList = B5843B3C2BFBF93C00495CBB /* Build configuration list for PBXProject "MechanicGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5843B382BFBF93C00495CBB;
+			productRefGroup = B5843B422BFBF93C00495CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5843B402BFBF93C00495CBB /* MechanicGPT */,
+				B5843B512BFBF93D00495CBB /* MechanicGPTTests */,
+				B5843B5B2BFBF93D00495CBB /* MechanicGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5843B3F2BFBF93C00495CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5843B4C2BFBF93D00495CBB /* Preview Assets.xcassets in Resources */,
+				B5843B492BFBF93D00495CBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5843B502BFBF93D00495CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5843B5A2BFBF93D00495CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5843B3D2BFBF93C00495CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5843B472BFBF93C00495CBB /* ContentView.swift in Sources */,
+				B5843B452BFBF93C00495CBB /* MechanicGPTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5843B4E2BFBF93D00495CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5843B572BFBF93D00495CBB /* MechanicGPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5843B582BFBF93D00495CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5843B632BFBF93D00495CBB /* MechanicGPTUITestsLaunchTests.swift in Sources */,
+				B5843B612BFBF93D00495CBB /* MechanicGPTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5843B542BFBF93D00495CBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5843B402BFBF93C00495CBB /* MechanicGPT */;
+			targetProxy = B5843B532BFBF93D00495CBB /* PBXContainerItemProxy */;
+		};
+		B5843B5E2BFBF93D00495CBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5843B402BFBF93C00495CBB /* MechanicGPT */;
+			targetProxy = B5843B5D2BFBF93D00495CBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5843B642BFBF93D00495CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5843B652BFBF93D00495CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B5843B672BFBF93D00495CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MechanicGPT/MechanicGPT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MechanicGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 72BQNS7NEU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhardin.MechanicGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5843B682BFBF93D00495CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MechanicGPT/MechanicGPT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MechanicGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 72BQNS7NEU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhardin.MechanicGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5843B6A2BFBF93D00495CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72BQNS7NEU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhardin.MechanicGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechanicGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MechanicGPT";
+			};
+			name = Debug;
+		};
+		B5843B6B2BFBF93D00495CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72BQNS7NEU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhardin.MechanicGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MechanicGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MechanicGPT";
+			};
+			name = Release;
+		};
+		B5843B6D2BFBF93D00495CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72BQNS7NEU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhardin.MechanicGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MechanicGPT;
+			};
+			name = Debug;
+		};
+		B5843B6E2BFBF93D00495CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72BQNS7NEU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhardin.MechanicGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MechanicGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5843B3C2BFBF93C00495CBB /* Build configuration list for PBXProject "MechanicGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5843B642BFBF93D00495CBB /* Debug */,
+				B5843B652BFBF93D00495CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5843B662BFBF93D00495CBB /* Build configuration list for PBXNativeTarget "MechanicGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5843B672BFBF93D00495CBB /* Debug */,
+				B5843B682BFBF93D00495CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5843B692BFBF93D00495CBB /* Build configuration list for PBXNativeTarget "MechanicGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5843B6A2BFBF93D00495CBB /* Debug */,
+				B5843B6B2BFBF93D00495CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5843B6C2BFBF93D00495CBB /* Build configuration list for PBXNativeTarget "MechanicGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5843B6D2BFBF93D00495CBB /* Debug */,
+				B5843B6E2BFBF93D00495CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5843B392BFBF93C00495CBB /* Project object */;
+}
